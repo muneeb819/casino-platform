@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-casino-bg text-slate-200;
+}
+
+.btn-primary {
+  @apply px-4 py-2 rounded-lg bg-gradient-to-b from-casino-accent to-casino-accent2 text-gray-900 font-bold hover:brightness-110 transition;
+}
+
+.btn-ghost {
+  @apply px-4 py-2 rounded-lg border border-slate-600 text-slate-300 hover:bg-casino-card transition;
+}
+
+.input {
+  @apply w-full rounded-lg bg-casino-card border border-slate-600 px-3 py-2 text-slate-100 placeholder-slate-500 focus:border-casino-accent outline-none;
+}
+
+.panel {
+  @apply bg-casino-panel border border-slate-700/60 rounded-xl p-5;
+}
